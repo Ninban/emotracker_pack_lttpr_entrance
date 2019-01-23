@@ -64,12 +64,13 @@
             ],
             "sections": [
               {
-                "name": "Cave",
-                "capture_item": true,
+                "name": "Dropdown",
                 "access_rules": [
                   "aga1,boots",
                   "{}"
                 ],
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ]
@@ -77,7 +78,7 @@
           {
             "name": "Death Mountain Entry Cave",
             "short_name": "DM Entry",
-            "map_locations":  [
+            "map_locations": [
               {
                 "map": "lightworld",
                 "x": 715,
@@ -100,7 +101,7 @@
               "mirror"
               // TODO: Access to the same place in dark world
             ],
-            "map_locations":  [
+            "map_locations": [
               {
                 "map": "lightworld",
                 "x": 720,
@@ -119,7 +120,7 @@
           {
             "name": "Kakariko Fortune Teller",
             "short_name": "Kak Fortune",
-            "map_locations":  [
+            "map_locations": [
               {
                 "map": "lightworld",
                 "x": 375,
@@ -143,7 +144,7 @@
               {
                 "name": "Woman Left Door",
                 "short_name": "Woman Left",
-                "map_locations":  [
+                "map_locations": [
                   {
                     "map": "lightworld",
                     "x": 305,
@@ -162,7 +163,7 @@
               {
                 "name": "Woman Right Door",
                 "short_name": "Woman Right",
-                "map_locations":  [
+                "map_locations": [
                   {
                     "map": "lightworld",
                     "x": 340,
@@ -181,7 +182,7 @@
               {
                 "name": "Left Snitch House",
                 "short_name": "Left Snitch",
-                "map_locations":  [
+                "map_locations": [
                   {
                     "map": "lightworld",
                     "x": 100,
@@ -200,7 +201,7 @@
               {
                 "name": "Right Snitch House",
                 "short_name": "Right Snitch",
-                "map_locations":  [
+                "map_locations": [
                   {
                     "map": "lightworld",
                     "x": 415,
@@ -227,13 +228,9 @@
                 ],
                 "sections": [
                   {
-                    "name": "Basement",
-                    "short_name": "Main",
-                    "item_count": 4
-                  },
-                  {
-                    "name": "Bombable Wall",
-                    "short_name": "Bomb",
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ]
@@ -249,12 +246,9 @@
                 ],
                 "sections": [
                   {
-                    "name": "Cave",
-                    "item_count": 4
-                  },
-                  {
-                    "name": "Bombable Wall",
-                    "short_name": "Bomb",
+                    "name": "Dropdown",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ]
@@ -286,7 +280,9 @@
                 ],
                 "sections": [
                   {
-                    "name": "Bombable Wall",
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ]
@@ -318,10 +314,9 @@
                 ],
                 "sections": [
                   {
-                    "name": "By The Bed",
-                    "access_rules": [
-                      "bottle"
-                    ],
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ]
@@ -337,15 +332,14 @@
                 ],
                 "access_rules": [
                   "hammer",
-                  "lift2,moonpearl,mirror"
+                  "lift2,moonpearl,mirror",
+                  "{}"
                 ],
                 "sections": [
                   {
-                    "name": "Magic Bowl",
-                    "access_rules": [
-                      "powder",
-                      "somaria,mushroom,[powder]"
-                    ],
+                    "name": "Dropdown",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ]
@@ -362,6 +356,11 @@
                 "sections": [
                   {
                     "name": "Take This Trash",
+                    "access_rules": [
+                      "mirror", // TODO - Plus access to dark south hyrule
+                      "{}"
+                    ],
+                    "capture_item": true,
                     "item_count": 1
                   }
                 ]
@@ -377,12 +376,9 @@
                 ],
                 "sections": [
                   {
-                    "name": "On The Shelf",
-                    "access_rules": [
-                      "boots",
-                      "{}"
-                    ],
-                    "capture_item": true,
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ]
@@ -418,8 +414,9 @@
             ],
             "sections": [
               {
-                "name": "Thief can't get it",
-                "short_name": "Hideout",
+                "name": "Dropdown",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ]
@@ -435,7 +432,7 @@
             ],
             "sections": [
               {
-                "name": "Wooden chest game",
+                "name": "Tree",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
                 "short_name": "Entrance",
@@ -463,8 +460,10 @@
             ],
             "sections": [
               {
-                "name": "Uncle & Hallway",
-                "item_count": 2
+                "name": "Dropdown",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
               }
             ]
           },
@@ -485,12 +484,11 @@
             ]
           },
           {
-            "name": "Bonk Rocks near House",
-            "short_name": "Bonk Rocks",
+            "name": "Bonk Rocks",
             "access_rules": [
               "boots"
             ],
-            "map_locations":  [
+            "map_locations": [
               {
                 "map": "lightworld",
                 "x": 945,
@@ -567,8 +565,10 @@
             ],
             "sections": [
               {
-                "name": "Big Bomb Spot",
-                "item_count": 2
+                "name": "Fat Fairy",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
               }
             ],
             "map_locations": [
@@ -613,7 +613,9 @@
                 "sections": [
                   {
                     "name": "Cave",
-                    "item_count": 5
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
@@ -653,12 +655,12 @@
                 ]
               },
               {
-                "name": "Bonk Rocks near House",
+                "name": "Bonk Rocks",
                 "short_name": "Bonk Rocks",
                 "access_rules": [
                   "boots"
                 ],
-                "map_locations":  [
+                "map_locations": [
                   {
                     "map": "darkworld",
                     "x": 945,
@@ -681,7 +683,9 @@
                 ],
                 "sections": [
                   {
-                    "name": "Circle of Bushes",
+                    "name": "Cave",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ],
@@ -733,12 +737,11 @@
                 "y": 670
               }
             ],
-            "access_rules": [
-              "mushroom"
-            ],
             "sections": [
               {
-                "name": "Assistant",
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ]
@@ -763,7 +766,9 @@
                 "sections": [
                   {
                     "name": "Waterfall Cave",
-                    "item_count": 2
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
@@ -849,16 +854,9 @@
             ],
             "sections": [
               {
-                "name": "Back Room",
-                "short_name": "Back",
-                "item_count": 3
-              },
-              {
-                "name": "Shabbadoo",
-                "short_name": "Shabba",
-                "access_rules": [
-                  "greenpendant"
-                ],
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ]
@@ -887,6 +885,8 @@
                 "access_rules": [
                   "boots"
                 ],
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ]
@@ -907,6 +907,8 @@
                 "access_rules": [
                   "boots"
                 ],
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ],
@@ -938,6 +940,8 @@
                 "sections": [
                   {
                     "name": "Cave",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ],
@@ -994,6 +998,8 @@
             "sections": [
               {
                 "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ],
@@ -1032,6 +1038,8 @@
             "sections": [
               {
                 "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ],
@@ -1047,8 +1055,10 @@
             "name": "Treasure Game",
             "sections": [
               {
-                "name": "Prizes",
-                "item_count": 2
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
               }
             ],
             "map_locations": [
@@ -1063,7 +1073,9 @@
             "name": "Bombable Shack",
             "sections": [
               {
-                "name": "Downstairs",
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ],
@@ -1132,6 +1144,8 @@
             "sections": [
               {
                 "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ],
@@ -1154,7 +1168,6 @@
             "name": "Ledge",
             "capture_item": true,
             "access_rules": [
-              "lift1,cape",
               "{}"
             ],
             "item_count": 1
@@ -1191,6 +1204,8 @@
         "sections": [
           {
             "name": "Inside",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
             "item_count": 1
           },
           {
@@ -1221,7 +1236,9 @@
         "sections": [
           {
             "name": "Cave",
-            "item_count": 5
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1238,6 +1255,8 @@
         "sections": [
           {
             "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
             "item_count": 1
           }
         ],
@@ -1310,15 +1329,13 @@
       //  Mire Hut
       {
         "name": "Mire Shack",
-        "access_rules": [
-          "moonpearl",
-          "mirror,[moonpearl]"
-        ],
         "sections": [
           //  Hut
           {
             "name": "Shack",
-            "item_count": 2
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1341,6 +1358,8 @@
           //  Cave
           {
             "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
             "item_count": 1
           }
         ],
@@ -1365,19 +1384,18 @@
     "group": "Death Mountain",
     "color": "#934f17",
     "access_rules": [
-      "lift1,[lamp]",
       "flute"
     ],
     "children": [
       //  Old Man
       {
-        "name": "Old Man",
-        "access_rules": [
-          "[lamp]"
-        ],
+        "name": "Death Moutain Entrance",
+        "short_name": "DM Entry",
         "sections": [
           {
-            "name": "Bring Him Home",
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
             "item_count": 1
           }
         ],
@@ -1393,10 +1411,6 @@
       {
         "name": "Spectacle Rock",
         "sections": [
-          {
-            "name": "Cave",
-            "item_count": 1
-          },
           {
             "name": "Up On top",
             "capture_item": true,
@@ -1448,12 +1462,8 @@
         "sections": [
           {
             "name": "Cave",
-            "access_rules": [
-              "pearl,hammer,lift1,[byrna]",
-              "pearl,hammer,lift1,[cape],[halfmagic]",
-              "pearl,hammer,lift1,[byrna]",
-              "pearl,hammer,lift1,[cape],[bottle:1]"
-            ],
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
             "item_count": 1
           }
         ],
@@ -1480,6 +1490,8 @@
               //  Front chest
               {
                 "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               }
             ],
@@ -1493,15 +1505,13 @@
           },
           //  East Death Mountain Cave
           {
-            "name": "Paradox Cave",
+            "name": "Paradox Cave Bottom",
             "sections": [
               {
-                "name": "Bottom",
-                "item_count": 2
-              },
-              {
-                "name": "Top",
-                "item_count": 5
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
               }
             ],
             "map_locations": [
@@ -1509,11 +1519,6 @@
                 "map": "lightworld",
                 "x": 1731,
                 "y": 434
-              },
-              {
-                "map": "lightworld",
-                "x": 1714,
-                "y": 293
               }
             ]
           },
@@ -1529,13 +1534,12 @@
               //  Super-Bunny Cave
               {
                 "name": "Super-Bunny Cave",
-                "access_rules": [
-                  "[pearl]"
-                ],
                 "sections": [
                   {
                     "name": "Cave",
-                    "item_count": 2
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
@@ -1555,21 +1559,10 @@
                 "sections": [
                   //  Front chest
                   {
-                    "name": "Bonkable Chest",
-                    "short_name": "Front",
-                    "access_rules": [
-                      "boots",
-                      "hookshot"
-                    ],
+                    "name": "Cave",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
-                  },
-                  //  Back Chests
-                  {
-                    "name": "Back",
-                    "access_rules": [
-                      "hookshot,pearl"
-                    ],
-                    "item_count": 3
                   }
                 ],
                 "map_locations": [
@@ -1587,12 +1580,10 @@
             "name": "Floating Island",
             "color": "#934f17",
             "sections": [
-              //  Front chest
               {
                 "name": "Island",
                 "capture_item": true,
                 "access_rules": [
-                  "pearl,lift2,mirror",
                   "{}"
                 ],
                 "item_count": 1
