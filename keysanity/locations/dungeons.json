@@ -6,13 +6,8 @@
     "map_locations": [
       {
         "map": "lightworld",
-        "x": 925,
-        "y": 536
-      },
-      {
-        "map": "lightworld",
-        "x": 1003,
-        "y": 906
+        "x": 1000,
+        "y": 940
       }
     ],
     "sections": [
@@ -44,14 +39,11 @@
   {
     "name": "Agahnim's Tower",
     "color": "#701d43",
-    "access_rules": [
-      "$canClearAgaTowerBarrier"
-    ],
     "map_locations": [
       {
         "map": "lightworld",
-        "x": 1003,
-        "y": 807
+        "x": 1000,
+        "y": 750
       }
     ],
     "sections": [
@@ -103,7 +95,7 @@
       {
         "map": "lightworld",
         "x": 1925,
-        "y": 791
+        "y": 830
       }
     ]
   },
@@ -144,8 +136,8 @@
     "map_locations": [
       {
         "map": "lightworld",
-        "x": 146,
-        "y": 1584
+        "x": 150,
+        "y": 1700
       }
     ]
   },
@@ -489,8 +481,8 @@
         "map_locations": [
           {
             "map": "lightworld",
-            "x": 1126,
-            "y": 68
+            "x": 1125,
+            "y": 20
           }
         ]
       },
@@ -527,33 +519,6 @@
             "map": "darkworld",
             "x": 1890,
             "y": 144
-          }
-        ],
-        "children": [
-          {
-            "name": "Mimic Cave",
-            "color": "#934f17",
-            "access_rules": [
-              "mirror,hammer,@Turtle Rock/Dungeon"
-            ],
-            "sections": [
-              {
-                "name": "Cave",
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 1694,
-                "y": 190
-              },
-              {
-                "map": "darkworld",
-                "x": 1693,
-                "y": 205
-              }
-            ]
           }
         ]
       },
