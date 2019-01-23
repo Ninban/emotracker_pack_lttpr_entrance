@@ -95,7 +95,7 @@
             ]
           },
           {
-            "name": "Death Mountain Exit Cave",
+            "name": "Death Mountain Exit Back",
             "short_name": "DM Exit",
             "access_rules": [
               "mirror"
@@ -288,6 +288,24 @@
                 ]
               },
               {
+                "name": "Grass House",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 410,
+                    "y": 1075
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Mow your lawn",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
                 "name": "Tavern",
                 "map_locations": [
                   {
@@ -299,6 +317,60 @@
                 "sections": [
                   {
                     "name": "Back Room",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Front Tavern",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 320,
+                    "y": 1195
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Kakariko Shop",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 220,
+                    "y": 1175
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Bomb hut",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 55,
+                    "y": 1195
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ]
@@ -345,6 +417,60 @@
                 ]
               },
               {
+                "name": "Chest Game",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 425,
+                    "y": 1410
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Race House Right",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 280,
+                    "y": 1435
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Race House Left",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 220,
+                    "y": 1435
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
                 "name": "Race Game",
                 "map_locations": [
                   {
@@ -357,7 +483,8 @@
                   {
                     "name": "Take This Trash",
                     "access_rules": [
-                      "mirror", // TODO - Plus access to dark south hyrule
+                      "mirror",
+                      // TODO - Plus access to dark south hyrule
                       "{}"
                     ],
                     "capture_item": true,
@@ -468,6 +595,78 @@
             ]
           },
           {
+            "name": "Castle Main Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1000,
+                "y": 880
+              }
+            ],
+            "sections": [
+              {
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Castle Left Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 900,
+                "y": 780
+              }
+            ],
+            "sections": [
+              {
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Castle Right Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1105,
+                "y": 780
+              }
+            ],
+            "sections": [
+              {
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Castle Tower Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1000,
+                "y": 800
+              }
+            ],
+            "sections": [
+              {
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
             "name": "Link's House",
             "map_locations": [
               {
@@ -484,7 +683,7 @@
             ]
           },
           {
-            "name": "Bonk Rocks",
+            "name": "Central Bonk Rocks",
             "access_rules": [
               "boots"
             ],
@@ -655,7 +854,7 @@
                 ]
               },
               {
-                "name": "Bonk Rocks",
+                "name": "Dark Central Bonk Rocks",
                 "short_name": "Bonk Rocks",
                 "access_rules": [
                   "boots"
@@ -860,6 +1059,60 @@
                 "item_count": 1
               }
             ]
+          },
+          {
+            "name": "Trees Fairy Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1650,
+                "y": 1295
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Pegs Fairy Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1970,
+                "y": 1405
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Eastern Palace",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1925,
+                "y": 780
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
           }
         ]
       },
@@ -869,9 +1122,48 @@
         "group": "North Hyrule",
         "color": "#059134",
         "children": [
+          {
+            "name": "Houlihan Hole",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1290,
+                "y": 625
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dropdown",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Sanctuary Grave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1040,
+                "y": 590
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dropdown",
+                "access_rules": [
+                  "lift1"
+                ],
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
           //  Bonk Rocks
           {
-            "name": "Bonk Rocks",
+            "name": "North Bonk Rocks",
             "map_locations": [
               {
                 "map": "lightworld",
@@ -969,6 +1261,102 @@
         "color": "#aa860d",
         "children": [
           {
+            "name": "Desert Left Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 70,
+                "y": 1590
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Desert Right Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 225,
+                "y": 1590
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "access_rules": [
+                  "nothing"
+                ],
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Desert Back Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 150,
+                "y": 1540
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Desert Front Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 150,
+                "y": 1600
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "access_rules": [
+                  "book"
+                ],
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Desert Back Entrance",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 150,
+                "y": 1540
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
             //  Desert Ledge
             "name": "Desert Ledge",
             "color": "#aa860d",
@@ -1008,6 +1396,45 @@
                 "map": "lightworld",
                 "x": 400,
                 "y": 1655
+              }
+            ]
+          },
+          {
+            "name": "Thief Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 555,
+                "y": 1790
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Rupee Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 625,
+                "y": 1920
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "access_rules": [
+                  "lift1"
+                ],
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
               }
             ]
           }
@@ -1230,6 +1657,78 @@
     "group": "Lake Hylia",
     "children": [
       {
+        "name": "Hype Fairy Cave",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1200,
+            "y": 1565
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fortune Teller",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1300,
+            "y": 1615
+          }
+        ],
+        "sections": [
+          {
+            "name": "House",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lake Shop",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1460,
+            "y": 1540
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Upgrade Fairy",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1590,
+            "y": 1710
+          }
+        ],
+        "sections": [
+          {
+            "name": "House",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
         "name": "Mini Moldorm Cave",
         "short_name": "Mini-Moldorm",
         "color": "#158134",
@@ -1264,7 +1763,46 @@
           {
             "map": "lightworld",
             "x": 1795,
-            "y": 1547
+            "y": 1545
+          }
+        ]
+      },
+      {
+        "name": "Ice Bee Cave",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1835,
+            "y": 1545
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ice Fairy Cave",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1810,
+            "y": 1585
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "access_rules": [
+              "lift1"
+            ],
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
           }
         ]
       },
@@ -1390,7 +1928,7 @@
       //  Old Man
       {
         "name": "Death Moutain Entrance",
-        "short_name": "DM Entry",
+        "short_name": "DM Entry Back",
         "sections": [
           {
             "name": "Cave",
@@ -1404,6 +1942,60 @@
             "map": "lightworld",
             "x": 816,
             "y": 378
+          }
+        ]
+      },
+      {
+        "name": "Old Man Residence",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 900,
+            "y": 470
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Old Man Back Residence",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1075,
+            "y": 325
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain Exit Front",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 790,
+            "y": 275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
           }
         ]
       },
@@ -1424,8 +2016,62 @@
         "map_locations": [
           {
             "map": "lightworld",
+            "x": 1020,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Spectacle Rock Left",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 920,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Spectacle Rock Right",
+        "map_locations": [
+          {
+            "map": "lightworld",
             "x": 980,
-            "y": 178
+            "y": 290
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Spectacle Rock Top",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 980,
+            "y": 205
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
           }
         ]
       },
@@ -1452,6 +2098,24 @@
             "map": "lightworld",
             "x": 844,
             "y": 38
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 1125,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
           }
         ]
       },
@@ -1483,11 +2147,100 @@
           "hookshot"
         ],
         "children": [
+          {
+            "name": "Paradox Cave Top",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1725,
+                "y": 125
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Mimic Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1695,
+                "y": 180
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "EDM Connector Top",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1645,
+                "y": 230
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "EDM Connector Bottom",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1645,
+                "y": 275
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Paradox Cave Top",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1725,
+                "y": 125
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
           //  Spiral Cave
           {
-            "name": "Spiral Cave",
+            "name": "Spiral Cave Top",
             "sections": [
-              //  Front chest
               {
                 "name": "Cave",
                 "chest_unopened_img": "images/door_closed.png",
@@ -1498,12 +2251,66 @@
             "map_locations": [
               {
                 "map": "lightworld",
-                "x": 1598,
+                "x": 1600,
                 "y": 180
               }
             ]
           },
+          {
+            "name": "Spiral Cave Bottom",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1605,
+                "y": 260
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
           //  East Death Mountain Cave
+          {
+            "name": "EDM Fairy Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1695,
+                "y": 290
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Paradox Cave Middle",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1735,
+                "y": 290
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
           {
             "name": "Paradox Cave Bottom",
             "sections": [
