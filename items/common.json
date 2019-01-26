@@ -545,5 +545,12 @@
     "type": "toggle",
     "img": "images/0062.png",
     "codes": "bumper_cave"
+  },
+  {
+    "name": "Ice Palace Area",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "ip_area"
   }
 ]

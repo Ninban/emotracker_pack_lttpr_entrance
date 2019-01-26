@@ -2115,27 +2115,6 @@
           }
         ]
       },
-      {
-        "name": "Ice Palace",
-        "access_rules": [
-          "lift1"
-        ],
-        "sections": [
-          {
-            "name": "Dungeon",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "darkworld",
-            "x": 1600,
-            "y": 1735
-          }
-        ]
-      }
     ]
   },
   //  Lake Hylia
@@ -2200,6 +2179,10 @@
       },
       {
         "name": "Upgrade Fairy",
+        "access_rules": [
+          "flippers",
+          "ip_area,mirror"
+        ],
         "map_locations": [
           {
             "map": "lightworld",
@@ -2338,6 +2321,29 @@
             "map": "lightworld",
             "x": 1390,
             "y": 1390
+          }
+        ]
+      },
+      {
+        "name": "Ice Palace",
+        "access_rules": [
+          "lift2,flippers",
+          "ip_area"
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "ip_area"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1600,
+            "y": 1735
           }
         ]
       }
