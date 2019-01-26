@@ -898,7 +898,8 @@
               "aga1,hammer,pearl",
               "aga1,pearl,flippers,hookshot",
               "aga1,pearl,hammer,hookshot",
-              "aga1,pearl,lift1,hookshot"
+              "aga1,pearl,lift1,hookshot",
+              "dw_west"
             ],
             "children": [
               {
