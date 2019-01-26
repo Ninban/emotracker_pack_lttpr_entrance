@@ -1392,9 +1392,19 @@
         "color": "#aa860d",
         "children": [
           {
-            "name": "Desert Left Entrance",
-            "map_locations": [
+            "name": "Desert Ledge Area",
+            "group": "Desert Ledge Area",
+            "color": "#aa860d",
+            "access_rules": [
+              "lift2,ocarina,mirror",
+              "desert_ledge",
+              "mire_area,mirror"
+            ],
+            "children": [
               {
+                "name": "Desert Left Entrance",
+                "map_locations": [
+                  {
                 "map": "lightworld",
                 "x": 70,
                 "y": 1590
@@ -1402,10 +1412,60 @@
             ],
             "sections": [
               {
-                "name": "Cave",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
+                    "name": "Cave",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1,
+                    "hosted_item": "desert_ledge"
+                  }
+                ]
+              },
+              {
+                "name": "Desert Back Entrance",
+                "access_rules": [
+                  "mire_area,mirror",
+                  "lift1"
+                ],
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 150,
+                    "y": 1540
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Cave",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1,
+                    "hosted_item": "desert_ledge"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            //  Desert Ledge
+            "name": "Desert Ledge",
+            "color": "#aa860d",
+            "sections": [
+              {
+                "name": "Ledge",
+                "access_rules": [
+                  "lift2,ocarina,mirror",
+                  "desert_ledge",
+                  "{}"
+                ],
+                "capture_item": true,
                 "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 40,
+                "y": 1835
               }
             ]
           },
@@ -1424,24 +1484,6 @@
                 "access_rules": [
                   "nothing"
                 ],
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "Desert Back Entrance",
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 150,
-                "y": 1540
-              }
-            ],
-            "sections": [
-              {
-                "name": "Cave",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
                 "item_count": 1
@@ -1469,49 +1511,6 @@
               }
             ]
           },
-          {
-            "name": "Desert Back Entrance",
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 150,
-                "y": 1540
-              }
-            ],
-            "sections": [
-              {
-                "name": "Cave",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            //  Desert Ledge
-            "name": "Desert Ledge",
-            "color": "#aa860d",
-            "sections": [
-              {
-                "name": "Ledge",
-                "access_rules": [
-                  "book",
-                  "flute,lift2,mirror",
-                  "{}"
-                ],
-                "capture_item": true,
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 40,
-                "y": 1835
-              }
-            ]
-          },
-          //  Aginah's Cave
           {
             "name": "Aginah's Cave",
             "sections": [
@@ -2337,7 +2336,8 @@
     "color": "#02473f",
     "group": "Desert Area",
     "access_rules": [
-      "ocarina,lift2"
+      "ocarina,lift2",
+      "mire_area"
     ],
     "children": [
       {
@@ -2352,7 +2352,8 @@
             "name": "Dungeon",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
+            "item_count": 1,
+            "hosted_items": "mire_area"
           }
         ],
         "map_locations": [
@@ -2363,7 +2364,6 @@
           }
         ]
       },
-      //  Mire Hut
       {
         "name": "Mire Shack",
         "sections": [
@@ -2371,7 +2371,8 @@
             "name": "Shack",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
+            "item_count": 1,
+            "hosted_item": "mire_area"
           }
         ],
         "map_locations": [
@@ -2389,7 +2390,8 @@
             "name": "Shack",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
+            "item_count": 1,
+            "hosted_item": "mire_area"
           }
         ],
         "map_locations": [
@@ -2407,7 +2409,8 @@
             "name": "Shack",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
+            "item_count": 1,
+            "hosted_item": "mire_area"
           }
         ],
         "map_locations": [
@@ -2418,13 +2421,12 @@
           }
         ]
       },
-      //  Checkerboard Cave
       {
         "name": "Checkerboard Cave",
         "short_name": "Checkerboard",
         "color": "#aa860d",
         "access_rules": [
-          "mirror"
+          "mirror,lift1"
         ],
         "sections": [
           //  Cave

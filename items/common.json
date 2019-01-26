@@ -509,5 +509,20 @@
         "codes": "armor3,redmail"
       }
     ]
+  },
+  // Regions
+  {
+    "name": "Desert Ledge",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "desert_ledge"
+  },
+  {
+    "name": "Mire Area",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "mire_area"
   }
 ]
