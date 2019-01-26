@@ -524,5 +524,26 @@
     "type": "toggle",
     "img": "images/0062.png",
     "codes": "mire_area"
+  },
+  {
+    "name": "Northwest Dark World",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_west"
+  },
+  {
+    "name": "Hammer House",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "hammer_house"
+  },
+  {
+    "name": "Bumper Cave",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "bumper_cave"
   }
 ]

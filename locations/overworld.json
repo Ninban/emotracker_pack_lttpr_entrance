@@ -98,8 +98,7 @@
             "name": "Death Mountain Exit Back",
             "short_name": "DM Exit",
             "access_rules": [
-              "mirror"
-              // TODO: Access to the same place in dark world
+              "mirror,bumper_cave"
             ],
             "map_locations": [
               {
@@ -821,7 +820,7 @@
                   }
                 ]
               },
-			                {
+              {
                 "name": "Dark Flute Spot 5",
                 "sections": [
                   {
@@ -1405,13 +1404,13 @@
                 "name": "Desert Left Entrance",
                 "map_locations": [
                   {
-                "map": "lightworld",
-                "x": 70,
-                "y": 1590
-              }
-            ],
-            "sections": [
-              {
+                    "map": "lightworld",
+                    "x": 70,
+                    "y": 1590
+                  }
+                ],
+                "sections": [
+                  {
                     "name": "Cave",
                     "chest_unopened_img": "images/door_closed.png",
                     "chest_opened_img": "images/door_open.png",
@@ -1582,23 +1581,24 @@
       "aga1,hookshot,lift1,moonpearl",
       "aga1,hookshot,hammer,moonpearl",
       "lift1,hammer,moonpearl",
-      "lift2,moonpearl"
+      "lift2,moonpearl",
+      "dw_west",
+      "bumper_cave",
+      "hammer_house,hammer,moonpearl"
     ],
-	"sections": [
-	{
-	"name": "Region",
-	"chest_unopened_img": "images/door_closed.png",
-	"chest_opened_img": "images/door_open.png",
-	"item_count": 1
-	}
-	],
-	"map_locations": [
-	{
-	"map": "darkworld",
-	"x": 600,
-	"y": 600
-	}
-	],
+    "sections": [
+      {
+        "name": "Region",
+        "hosted_item": "dw_west"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 600,
+        "y": 600
+      }
+    ],
     "children": [
       {
         "name": "Skull Woods Back",
@@ -1630,7 +1630,8 @@
                 "name": "Dungeon",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
+                "item_count": 1,
+                "hosted_item": "dw_west"
               }
             ],
             "map_locations": [
@@ -1648,7 +1649,8 @@
                 "name": "House",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
+                "item_count": 1,
+                "hosted_item": "dw_west"
               }
             ],
             "map_locations": [
@@ -1659,7 +1661,7 @@
               }
             ]
           },
-		  {
+          {
             "name": "Hammer House",
             "access_rules": [
               "hammer"
@@ -1669,8 +1671,9 @@
                 "name": "House",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              },
+                "item_count": 1,
+                "hosted_item": "hammer_house"
+              }
             ],
             "map_locations": [
               {
@@ -1680,15 +1683,16 @@
               }
             ]
           },
-		  {
+          {
             "name": "Dark Village Fortune Teller",
             "sections": [
               {
                 "name": "House",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              },
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
             ],
             "map_locations": [
               {
@@ -1698,15 +1702,16 @@
               }
             ]
           },
-		  {
+          {
             "name": "Dark Sanctuary",
             "sections": [
               {
                 "name": "House",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              },
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
             ],
             "map_locations": [
               {
@@ -1716,7 +1721,7 @@
               }
             ]
           },
-		  {
+          {
             "name": "Bomb Shop",
             "sections": [
               {
@@ -1752,28 +1757,28 @@
               }
             ]
           },
-		  {
-			"name": "Race House Left",
-			"map_locations": [
-			  {
-				"map": "lightworld",
-				"x": 220,
-				"y": 1435
-			  }
-			],
-			"access_rules": [
+          {
+            "name": "Race House Left",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 220,
+                "y": 1435
+              }
+            ],
+            "access_rules": [
               "mirror"
             ],
-			"sections": [
-			  {
-				"name": "House",
-				"chest_unopened_img": "images/door_closed.png",
-				"chest_opened_img": "images/door_open.png",
-				"item_count": 1
-			  }
-			]
-		  },
-		  {
+            "sections": [
+              {
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
             "name": "Arrow Game",
             "sections": [
               {
@@ -1791,15 +1796,16 @@
               }
             ]
           },
-		  {
+          {
             "name": "Shield Shop",
             "sections": [
               {
                 "name": "House",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              },
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
             ],
             "map_locations": [
               {
@@ -1809,15 +1815,16 @@
               }
             ]
           },
-		  {
+          {
             "name": "Dark Lumberjack",
             "sections": [
               {
                 "name": "House",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              },
+                "item_count": 1,
+                "hosted_item": "dw_west"
+              }
             ],
             "map_locations": [
               {
@@ -1834,7 +1841,8 @@
                 "name": "House",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
+                "item_count": 1,
+                "hosted_item": "dw_west"
               }
             ],
             "map_locations": [
@@ -1852,7 +1860,8 @@
                 "name": "House",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
+                "item_count": 1,
+                "hosted_item": "dw_west"
               }
             ],
             "map_locations": [
@@ -1937,11 +1946,12 @@
           {
             "name": "Exit Only",
             "access_rules": [
-              "Nothing"
+              "bumper_cave"
             ],
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
+            "item_count": 1,
+            "hosted_item": "bumper_cave"
           }
         ],
         "map_locations": [
@@ -1960,7 +1970,8 @@
             "name": "Cave",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
+            "item_count": 1,
+            "hosted_item": "dw_west"
           }
         ],
         "map_locations": [
@@ -1980,6 +1991,7 @@
             "name": "Ledge",
             "capture_item": true,
             "access_rules": [
+              "bumper_cave",
               "{}"
             ],
             "item_count": 1
@@ -2035,14 +2047,14 @@
       }
     ]
   },
-    {
+  {
     "name": "Southeast Dark World",
     "group": "Southeast Dark World",
-	"access_rules": [
-	  "pearl, lift2, flippers",
-	  "pearl, hammer,lift1, [flippers]",
-	  "pearl,aga1,[flippers]"
-	],
+    "access_rules": [
+      "pearl, lift2, flippers",
+      "pearl, hammer,lift1, [flippers]",
+      "pearl,aga1,[flippers]"
+    ],
     "color": "#0d8452",
     "children": [
       {
@@ -2083,9 +2095,9 @@
       },
       {
         "name": "Dark Ice Rod Rock",
-		"access_rules": [
-		  "lift1"
-		],
+        "access_rules": [
+          "lift1"
+        ],
         "sections": [
           {
             "name": "Cave",
@@ -2675,7 +2687,7 @@
           }
         ]
       },
-	  {
+      {
         "name": "Dark Mountain Fairy",
         "color": "#35046b",
         "sections": [
