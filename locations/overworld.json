@@ -735,7 +735,9 @@
                 "name": "Dark Trees Fairy Cave",
                 "sections": [
                   {
-                    "name": "Ledge",
+                    "name": "Cave",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ],
@@ -751,7 +753,9 @@
                 "name": "Dark Saha",
                 "sections": [
                   {
-                    "name": "Ledge",
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ],
@@ -764,10 +768,30 @@
                 ]
               },
               {
+                "name": "Palace of Darkness",
+                "sections": [
+                  {
+                    "name": "Dungeon",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "darkworld",
+                    "x": 1925,
+                    "y": 785
+                  }
+                ]
+              },
+              {
                 "name": "Dark Witch's Hut",
                 "sections": [
                   {
-                    "name": "Ledge",
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ],
@@ -783,7 +807,9 @@
                 "name": "Dark Flute Spot 5",
                 "sections": [
                   {
-                    "name": "Ledge",
+                    "name": "Cave",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
                     "item_count": 1
                   }
                 ],
@@ -821,6 +847,28 @@
                 "map": "darkworld",
                 "x": 940,
                 "y": 976
+              }
+            ]
+          },
+          {
+            "name": "Ganon Hole",
+            "color": "#35046b",
+            "access_rules": [
+              "crystal:7"
+            ],
+            "sections": [
+              {
+                "name": "Dropdown",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1000,
+                "y": 820
               }
             ]
           },
@@ -868,6 +916,25 @@
                     "map": "darkworld",
                     "x": 1200,
                     "y": 1560
+                  }
+                ]
+              },
+              {
+                "name": "Swamp Palace",
+                "color": "#35046b",
+                "sections": [
+                  {
+                    "name": "Dungeon",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "darkworld",
+                    "x": 940,
+                    "y": 1875
                   }
                 ]
               },
@@ -1516,11 +1583,47 @@
 	}
 	],
     "children": [
+      {
+        "name": "Skull Woods Back",
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 80,
+            "y": 100
+          }
+        ]
+      },
       //  Village of Outcasts
       {
         "name": "Village of Outcasts",
         "group": "Kakariko Area",
         "children": [
+          {
+            "name": "Thieves Town",
+            "sections": [
+              {
+                "name": "Dungeon",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 255,
+                "y": 975
+              }
+            ]
+          },
           {
             "name": "C-Shaped House",
             "sections": [
@@ -1611,6 +1714,24 @@
                 "map": "darkworld",
                 "x": 1098,
                 "y": 1382
+              }
+            ]
+          },
+          {
+            "name": "Dark Hylia Fortune Teller",
+            "sections": [
+              {
+                "name": "House",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              },
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1300,
+                "y": 1615
               }
             ]
           },
@@ -1797,6 +1918,47 @@
           }
         ]
       },
+      {
+        "name": "Bumper Cave Exit",
+        "sections": [
+          //  Ledge
+          {
+            "name": "Exit Only",
+            "access_rules": [
+              "Nothing"
+            ],
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 720,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Bumper Cave Entry",
+        "sections": [
+          //  Ledge
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 715,
+            "y": 355
+          }
+        ]
+      },
       //  Bumper Cave
       {
         "name": "Bumper Cave",
@@ -1814,8 +1976,8 @@
         "map_locations": [
           {
             "map": "darkworld",
-            "x": 687,
-            "y": 340
+            "x": 680,
+            "y": 315
           }
         ]
       }
@@ -1925,6 +2087,27 @@
             "map": "darkworld",
             "x": 1810,
             "y": 1585
+          }
+        ]
+      },
+      {
+        "name": "Ice Palace",
+        "access_rules": [
+          "lift1"
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1600,
+            "y": 1735
           }
         ]
       }
@@ -2144,11 +2327,33 @@
       "ocarina,lift2"
     ],
     "children": [
+      {
+        "name": "Misery Mire",
+        "color": "#35046b",
+        "access_rules": [
+          "moonpearl,mm_medallion,$canUseMedallions",
+          "moonpearl,bombos,ether,quake,$canUseMedallions"
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 150,
+            "y": 1620
+          }
+        ]
+      },
       //  Mire Hut
       {
         "name": "Mire Shack",
         "sections": [
-          //  Hut
           {
             "name": "Shack",
             "chest_unopened_img": "images/door_closed.png",
@@ -2161,6 +2366,42 @@
             "map": "darkworld",
             "x": 77,
             "y": 1600
+          }
+        ]
+      },
+      {
+        "name": "Mire Right Shack",
+        "sections": [
+          {
+            "name": "Shack",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 220,
+            "y": 1610
+          }
+        ]
+      },
+      {
+        "name": "Mire Cave",
+        "sections": [
+          {
+            "name": "Shack",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 400,
+            "y": 1655
           }
         ]
       },
@@ -2687,8 +2928,8 @@
                 "map_locations": [
                   {
                     "map": "darkworld",
-                    "x": 1695,
-                    "y": 290
+                    "x": 1685,
+                    "y": 295
                   }
                 ]
               },
@@ -2707,6 +2948,24 @@
                     "map": "darkworld",
                     "x": 1725,
                     "y": 128
+                  }
+                ]
+              },
+              {
+                "name": "Death Mountain Shop",
+                "sections": [
+                  {
+                    "name": "Cave",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "darkworld",
+                    "x": 1725,
+                    "y": 295
                   }
                 ]
               },
@@ -2746,6 +3005,24 @@
                   }
                 ]
               },
+              {
+                "name": "Turtle Rock",
+                "sections": [
+                  {
+                    "name": "Dungeon",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "darkworld",
+                    "x": 1890,
+                    "y": 165
+                  }
+                ]
+              },
               //  Hookshot Cave
               {
                 "name": "Hookshot Cave",
@@ -2766,6 +3043,29 @@
                     "map": "darkworld",
                     "x": 1670,
                     "y": 126
+                  }
+                ]
+              },
+              {
+                "name": "Ganon's Tower",
+                "color": "#af0000",
+                "access_rules": [
+                  "mirror,hammer,lift2,crystal:7",
+                  "hookshot,hammer,lift2,crystal:7"
+                ],
+                "sections": [
+                  {
+                    "name": "Dungeon",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  },
+                ],
+                "map_locations": [
+                  {
+                    "map": "darkworld",
+                    "x": 1125,
+                    "y": 70
                   }
                 ]
               }
