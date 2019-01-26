@@ -394,6 +394,24 @@
                 ]
               },
               {
+                "name": "Smiths House",
+                "sections": [
+                  {
+                    "name": "House",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 615,
+                    "y": 1055
+                  }
+                ]
+              },
+              {
                 "name": "Magic Bat",
                 "map_locations": [
                   {
@@ -1707,7 +1725,7 @@
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
                 "item_count": 1
-              },
+              }
             ],
             "map_locations": [
               {
@@ -1725,7 +1743,7 @@
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
                 "item_count": 1
-              },
+              }
             ],
             "map_locations": [
               {
@@ -1764,7 +1782,7 @@
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
                 "item_count": 1
-              },
+              }
             ],
             "map_locations": [
               {
@@ -1859,11 +1877,6 @@
               }
             ],
             "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 616,
-                "y": 1054
-              },
               {
                 "map": "darkworld",
                 "x": 295,
@@ -2869,7 +2882,6 @@
               }
             ]
           },
-
           //  Dark Death Mountain
           {
             "name": "Dark Death Mountain",
@@ -3059,7 +3071,7 @@
                     "chest_unopened_img": "images/door_closed.png",
                     "chest_opened_img": "images/door_open.png",
                     "item_count": 1
-                  },
+                  }
                 ],
                 "map_locations": [
                   {
