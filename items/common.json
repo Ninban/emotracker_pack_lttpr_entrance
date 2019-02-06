@@ -512,6 +512,13 @@
   },
   // Regions
   {
+    "name": "Castle Second Floor",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "castle_top"
+  },
+  {
     "name": "Desert Ledge",
     "capturable": false,
     "type": "toggle",
@@ -531,6 +538,27 @@
     "type": "toggle",
     "img": "images/0062.png",
     "codes": "dw_west"
+  },
+  {
+    "name": "South Dark World",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_south"
+  },
+  {
+    "name": "East Dark World",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_east"
+  },
+  {
+    "name": "Dark Witch Hut",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_witch"
   },
   {
     "name": "Hammer House",

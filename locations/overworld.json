@@ -612,56 +612,76 @@
             ]
           },
           {
-            "name": "Castle Left Entrance",
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 900,
-                "y": 780
-              }
+            "name": "Castle Second Floor",
+            "group": "Central Hyrule",
+            "access_rules": [
+              "castle_top",
+              "aga1,mirror",
+              "pearl,lift1,hammer,mirror",
+              "pearl,lift2,flippers,mirror",
+              "dw_east,mirror",
+              "dw_south,pearl,hammer,mirror",
+              "dw_south,pearl,flippers,mirror",
+              "dw_west,pearl,hammer,mirror",
+              "dw_west,pearl,flippers,mirror",
             ],
-            "sections": [
+            "children": [
               {
-                "name": "House",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "Castle Right Entrance",
-            "map_locations": [
+                "name": "Castle Left Entrance",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 900,
+                    "y": 780
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Dungeon",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1,
+                    "hosted_item": "castle_top"
+                  }
+                ]
+              },
               {
-                "map": "lightworld",
-                "x": 1105,
-                "y": 780
-              }
-            ],
-            "sections": [
+                "name": "Castle Right Entrance",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 1105,
+                    "y": 780
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Dungeon",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1,
+                    "hosted_item": "castle_top"
+                  }
+                ]
+              },
               {
-                "name": "House",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "Castle Tower Entrance",
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 1000,
-                "y": 800
-              }
-            ],
-            "sections": [
-              {
-                "name": "House",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
+                "name": "Castle Tower Entrance",
+                "map_locations": [
+                  {
+                    "map": "lightworld",
+                    "x": 1000,
+                    "y": 800
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Dungeon",
+                    "chest_unopened_img": "images/door_closed.png",
+                    "chest_opened_img": "images/door_open.png",
+                    "item_count": 1,
+                    "hosted_item": "castle_top"
+                  }
+                ]
               }
             ]
           },
@@ -678,6 +698,28 @@
               {
                 "name": "By The Door",
                 "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Dam",
+            "sections": [
+              {
+                "name": "Inside",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1
+              },
+              {
+                "name": "Outside",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 942,
+                "y": 1880
               }
             ]
           },
@@ -719,334 +761,6 @@
               {
                 "name": "Hidden Treasure",
                 "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "Dark Central (Pyramid)",
-            "color": "#35046b",
-            "access_rules": [
-              "lift1,hammer,pearl",
-              "aga1",
-              "lift2,flippers,pearl",
-              "lift2,boots,pearl,[hammer]"
-            ],
-            "children": [
-              {
-                "name": "Pyramid Ledge",
-                "sections": [
-                  {
-                    "name": "Ledge",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1164,
-                    "y": 922
-                  }
-                ]
-              },
-              {
-                "name": "Dark Trees Fairy Cave",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1656,
-                    "y": 1296
-                  }
-                ]
-              },
-              {
-                "name": "Dark Saha",
-                "sections": [
-                  {
-                    "name": "House",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1706,
-                    "y": 1008
-                  }
-                ]
-              },
-              {
-                "name": "Palace of Darkness",
-                "sections": [
-                  {
-                    "name": "Dungeon",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1925,
-                    "y": 785
-                  }
-                ]
-              },
-              {
-                "name": "Dark Witch's Hut",
-                "sections": [
-                  {
-                    "name": "House",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1616,
-                    "y": 678
-                  }
-                ]
-              },
-              {
-                "name": "Dark Flute Spot 5",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1968,
-                    "y": 1405
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Fat Fairy",
-            "color": "#35046b",
-            "access_rules": [
-              "lift1,hammer,pearl,crystal56:2",
-              "aga1,pearl,hookshot,flippers,mirror,crystal56:2",
-              "aga1,pearl,hookshot,lift1,mirror,crystal56:2",
-              "aga1,hammer,pearl,crystal56:2",
-              "aga1,lift2,pearl,mirror,crystal56:2",
-              "lift2,pearl,crystal56:2,[hammer]"
-            ],
-            "sections": [
-              {
-                "name": "Fat Fairy",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "darkworld",
-                "x": 940,
-                "y": 976
-              }
-            ]
-          },
-          {
-            "name": "Ganon Hole",
-            "color": "#35046b",
-            "access_rules": [
-              "crystal:7"
-            ],
-            "sections": [
-              {
-                "name": "Dropdown",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "darkworld",
-                "x": 1000,
-                "y": 820
-              }
-            ]
-          },
-          {
-            "name": "Dark Central (Left)",
-            "color": "#35046b",
-            "access_rules": [
-              "lift2,pearl",
-              "lift1,hammer,pearl",
-              "aga1,hammer,pearl",
-              "aga1,pearl,flippers,hookshot",
-              "aga1,pearl,hammer,hookshot",
-              "aga1,pearl,lift1,hookshot",
-              "dw_west"
-            ],
-            "children": [
-              {
-                "name": "Haunted Grove",
-                "sections": [
-                  {
-                    "name": "Stumpy",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 620,
-                    "y": 1371
-                  }
-                ]
-              },
-              {
-                "name": "Hype Cave",
-                "color": "#35046b",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1200,
-                    "y": 1560
-                  }
-                ]
-              },
-              {
-                "name": "Swamp Palace",
-                "color": "#35046b",
-                "sections": [
-                  {
-                    "name": "Dungeon",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 940,
-                    "y": 1875
-                  }
-                ]
-              },
-              {
-                "name": "Bombos Tablet",
-                "group": "Desert Area",
-                "color": "#aa860d",
-                "sections": [
-                  {
-                    "name": "Tablet",
-                    "access_rules": [
-                      "mirror,book,$canActivateTablets",
-                      "{mirror,book}"
-                    ],
-                    "capture_item": true,
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "lightworld",
-                    "x": 440,
-                    "y": 1845
-                  },
-                  {
-                    "map": "darkworld",
-                    "x": 440,
-                    "y": 1845
-                  }
-                ]
-              },
-              {
-                "name": "Dark Central Bonk Rocks",
-                "short_name": "Bonk Rocks",
-                "access_rules": [
-                  "boots"
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 945,
-                    "y": 1310
-                  }
-                ],
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ]
-              },
-              {
-                "name": "South of Grove",
-                "access_rules": [
-                  "mirror"
-                ],
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "lightworld",
-                    "x": 552,
-                    "y": 1693
-                  },
-                  {
-                    "map": "darkworld",
-                    "x": 552,
-                    "y": 1693
-                  }
-                ]
-              },
-              {
-                "name": "Digging Game",
-                "sections": [
-                  {
-                    "name": "Dig For Treasure",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 100,
-                    "y": 1385
-                  }
-                ]
               }
             ]
           }
@@ -1147,7 +861,10 @@
               "pearl,lift2,flippers",
               "pearl,lift1,hammer",
               "pearl,aga1,lift1",
-              "pearl,lift2,boots,[flippers]"
+              "pearl,lift2,boots,[flippers]",
+              "dw_witch,pearl,lift1",
+              "dw_east,pearl,lift1",
+              "dw_west,pearl,lift1,flippers"
             ],
             "sections": [
               {
@@ -1322,7 +1039,14 @@
               "pearl,aga1,flippers,hookshot,mirror",
               "pearl,aga1,hammer,hookshot,mirror",
               "pearl,aga1,lift1,hookshot,mirror",
-              "pearl,lift1,hammer,mirror"
+              "pearl,lift1,hammer,mirror",
+              "dw_west,pearl,mirror",
+              "dw_east,flippers,hookshot,mirror",
+              "dw_east,lift1,hookshot,mirror",
+              "dw_east,hammer,hookshot,mirror",
+              "dw_south,flippers,hookshot,mirror",
+              "dw_south,hammer,hookshot,mirror",
+              "dw_witch,pearl,hookshot,mirror"
             ],
             "sections": [
               {
@@ -1373,11 +1097,6 @@
                     "map": "lightworld",
                     "x": 1132,
                     "y": 549
-                  },
-                  {
-                    "map": "darkworld",
-                    "x": 1132,
-                    "y": 530
                   }
                 ]
               }
@@ -1604,6 +1323,9 @@
     "children": [
       {
         "name": "Skull Woods Back",
+        "access_rules": [
+          "firerod,pearl"
+        ],
         "sections": [
           {
             "name": "Cave",
@@ -1720,81 +1442,6 @@
                 "map": "darkworld",
                 "x": 924,
                 "y": 551
-              }
-            ]
-          },
-          {
-            "name": "Bomb Shop",
-            "sections": [
-              {
-                "name": "House",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "darkworld",
-                "x": 1098,
-                "y": 1382
-              }
-            ]
-          },
-          {
-            "name": "Dark Hylia Fortune Teller",
-            "sections": [
-              {
-                "name": "House",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "darkworld",
-                "x": 1300,
-                "y": 1615
-              }
-            ]
-          },
-          {
-            "name": "Race House Left",
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 220,
-                "y": 1435
-              }
-            ],
-            "access_rules": [
-              "mirror"
-            ],
-            "sections": [
-              {
-                "name": "House",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "Arrow Game",
-            "sections": [
-              {
-                "name": "House",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "darkworld",
-                "x": 431,
-                "y": 1409
               }
             ]
           },
@@ -2009,41 +1656,434 @@
       }
     ]
   },
-  //  Swamp Area
   {
-    "name": "Swamp Area",
-    "group": "Swamp Area",
-    "color": "#0d8452",
+    "name": "South Dark World",
+    "color": "#35046b",
+    "group": "South Dark World",
+    "access_rules": [
+      "aga1,hammer,moonpearl",
+      "aga1,hookshot,lift1,moonpearl",
+      "aga1,hookshot,flippers,moonpearl",
+      "lift1,hammer,moonpearl",
+      "lift2,moonpearl",
+      "dw_west",
+      "bumper_cave",
+      "hammer_house,hammer,moonpearl",
+      "dw_south",
+      "dw_east,pearl,hammer",
+      "dw_witch,pearl,hammer",
+    ],
     "children": [
-      //  Dark Swamp Area
       {
-        "name": "Dark Swamp Area",
-        "group": "Swamp Area",
-        "access_rules": [
-          "pearl, lift2",
-          "pearl, hammer,lift1",
-          "pearl,aga1,hammer"
+        "name": "Haunted Grove",
+        "sections": [
+          {
+            "name": "Stumpy",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 620,
+            "y": 1371
+          }
         ]
       },
       {
-        "name": "Dam",
+        "name": "Hype Cave",
+        "color": "#35046b",
+        "access_rules": [
+          "moonpearl"
+        ],
         "sections": [
           {
-            "name": "Inside",
+            "name": "Cave",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          },
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Outside",
+            "map": "darkworld",
+            "x": 1200,
+            "y": 1560
+          }
+        ]
+      },
+      {
+        "name": "Swamp Palace",
+        "color": "#35046b",
+        "sections": [
+          {
+            "name": "Dungeon",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 940,
+            "y": 1875
+          }
+        ]
+      },
+      {
+        "name": "Bombos Tablet",
+        "group": "Desert Area",
+        "color": "#aa860d",
+        "sections": [
+          {
+            "name": "Tablet",
+            "access_rules": [
+              "mirror,book,$canActivateTablets",
+              "{mirror,book}"
+            ],
+            "capture_item": true,
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "lightworld",
-            "x": 942,
-            "y": 1880
+            "x": 440,
+            "y": 1845
+          },
+          {
+            "map": "darkworld",
+            "x": 440,
+            "y": 1845
+          }
+        ]
+      },
+      {
+        "name": "Dark Central Bonk Rocks",
+        "short_name": "Bonk Rocks",
+        "access_rules": [
+          "boots,pearl"
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 945,
+            "y": 1310
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ]
+      },
+      {
+        "name": "South of Grove",
+        "access_rules": [
+          "mirror"
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 552,
+            "y": 1693
+          }
+        ]
+      },
+      {
+        "name": "Digging Game",
+        "access_rules": [
+          "moonpearl"
+        ],
+        "sections": [
+          {
+            "name": "Dig For Treasure",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 100,
+            "y": 1385
+          }
+        ]
+      },
+      {
+        "name": "Bomb Shop",
+        "sections": [
+          {
+            "name": "House",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1098,
+            "y": 1382
+          }
+        ]
+      },
+      {
+        "name": "Arrow Game",
+        "sections": [
+          {
+            "name": "House",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 431,
+            "y": 1409
+          }
+        ]
+      },
+      {
+        "name": "Race House Left",
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 220,
+            "y": 1435
+          }
+        ],
+        "access_rules": [
+          "mirror"
+        ],
+        "sections": [
+          {
+            "name": "House",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dark Hylia Fortune Teller",
+        "sections": [
+          {
+            "name": "House",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_south"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1300,
+            "y": 1615
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "East Dark World",
+    "color": "#35046b",
+    "group": "East Dark World",
+    "access_rules": [
+      "lift1,hammer,pearl",
+      "aga1",
+      "lift2,flippers,pearl",
+      "lift2,boots,pearl,[hammer]",
+      "dw_west,pearl,flippers",
+      "dw_west,boots,pearl,[hammer]",
+      "bumper_cave,pearl,flippers",
+      "bumper_cave,boots,pearl,[hammer]",
+      "hammer_house,hammer,moonpearl",
+      "dw_south,pearl,hammer",
+      "dw_south,pearl,flippers",
+      "dw_east",
+      "dw_witch,pearl,lift1",
+      "dw_witch,pearl,hammer",
+      "dw_witch,pearl,flippers"
+    ],
+    "children": [
+      {
+        "name": "Pyramid Ledge",
+        "sections": [
+          {
+            "name": "Ledge",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1164,
+            "y": 922
+          }
+        ]
+      },
+      {
+        "name": "Dark Trees Fairy Cave",
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1656,
+            "y": 1296
+          }
+        ]
+      },
+      {
+        "name": "Dark Saha",
+        "sections": [
+          {
+            "name": "House",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1706,
+            "y": 1008
+          }
+        ]
+      },
+      {
+        "name": "Palace of Darkness",
+        "sections": [
+          {
+            "name": "Dungeon",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1925,
+            "y": 830
+          }
+        ]
+      },
+      {
+        "name": "Dark Witch's Hut",
+        "access_rules": [
+          "pearl,hammer",
+          "pearl,lift1",
+          "pearl,flippers"
+        ],
+        "sections": [
+          {
+            "name": "House",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_witch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1616,
+            "y": 678
+          }
+        ]
+      },
+      {
+        "name": "Dark Flute Spot 5",
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1968,
+            "y": 1405
+          }
+        ]
+      },
+      {
+        "name": "Fat Fairy",
+        "color": "#35046b",
+        "access_rules": [
+          "pearl,crystal56:2"
+        ],
+        "sections": [
+          {
+            "name": "Fat Fairy",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "dw_east"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 940,
+            "y": 976
+          }
+        ]
+      },
+      {
+        "name": "Ganon Hole",
+        "color": "#35046b",
+        "access_rules": [
+          "crystal:7"
+        ],
+        "sections": [
+          {
+            "name": "Dropdown",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1000,
+            "y": 820
           }
         ]
       }
@@ -2055,7 +2095,11 @@
     "access_rules": [
       "pearl, lift2, flippers",
       "pearl, hammer,lift1, [flippers]",
-      "pearl,aga1,[flippers]"
+      "pearl,aga1,[flippers]",
+      "dw_south,pearl,flippers",
+      "dw_east,pearl,flippers",
+      "dw_witch,pearl,flippers",
+      "dw_west,pearl,flippers"
     ],
     "color": "#0d8452",
     "children": [
@@ -2115,7 +2159,7 @@
             "y": 1585
           }
         ]
-      },
+      }
     ]
   },
   //  Lake Hylia
@@ -2287,6 +2331,9 @@
               "flippers,pearl,mirror,hammer,lift1",
               "flippers,pearl,mirror,lift2",
               "flippers,mirror,aga1,[pearl]",
+              "dw_south,pearl,flippers,mirror",
+              "dw_witch,pearl,flippers,mirror",
+              "dw_east,pearl,flippers,mirror",
               "{[flippers]}"
             ],
             "capture_item": true,
@@ -2373,14 +2420,14 @@
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
             "item_count": 1,
-            "hosted_items": "mire_area"
+            "hosted_item": "mire_area"
           }
         ],
         "map_locations": [
           {
             "map": "darkworld",
             "x": 150,
-            "y": 1620
+            "y": 1650
           }
         ]
       },
