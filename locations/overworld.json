@@ -1503,7 +1503,8 @@
               {
                 "name": "Cave",
                 "access_rules": [
-                  "book"
+                  "book",
+                  "mire_area, mirror"
                 ],
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
@@ -2181,7 +2182,7 @@
         "name": "Upgrade Fairy",
         "access_rules": [
           "flippers",
-          "ip_area,mirror"
+          "ip_area, mirror"
         ],
         "map_locations": [
           {
