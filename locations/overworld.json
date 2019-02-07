@@ -1313,13 +1313,6 @@
         "hosted_item": "dw_west"
       }
     ],
-    "map_locations": [
-      {
-        "map": "darkworld",
-        "x": 600,
-        "y": 600
-      }
-    ],
     "children": [
       {
         "name": "Skull Woods Back",
@@ -1504,6 +1497,9 @@
           },
           {
             "name": "Bombable Shack",
+            "access_rules": [
+              "pearl"
+            ],
             "sections": [
               {
                 "name": "House",
@@ -1575,7 +1571,7 @@
                 "name": "Cave",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
+                "item_count": 1,
               }
             ],
             "map_locations": [
@@ -1591,7 +1587,6 @@
       {
         "name": "Bumper Cave Exit",
         "sections": [
-          //  Ledge
           {
             "name": "Exit Only",
             "access_rules": [
@@ -1613,8 +1608,11 @@
       },
       {
         "name": "Bumper Cave Entry",
+        "access_rules": [
+          "bumper_cave",
+          "pearl"
+        ],
         "sections": [
-          //  Ledge
           {
             "name": "Cave",
             "chest_unopened_img": "images/door_closed.png",
@@ -1635,7 +1633,6 @@
       {
         "name": "Bumper Cave",
         "sections": [
-          //  Ledge
           {
             "name": "Ledge",
             "capture_item": true,
@@ -1982,6 +1979,9 @@
       },
       {
         "name": "Palace of Darkness",
+        "access_rules": [
+          "pearl"
+        ],
         "sections": [
           {
             "name": "Dungeon",
@@ -2099,18 +2099,23 @@
       "dw_south,pearl,flippers",
       "dw_east,pearl,flippers",
       "dw_witch,pearl,flippers",
-      "dw_west,pearl,flippers"
+      "dw_west,pearl,flippers",
+      "dw_southeast"
     ],
     "color": "#0d8452",
     "children": [
       {
         "name": "Dark Ice Rod Cave",
+        "access_rules": [
+          "pearl"
+        ],
         "sections": [
           {
             "name": "Cave",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
+            "item_count": 1,
+            "hosted_item": "dw_southeast"
           }
         ],
         "map_locations": [
@@ -2128,7 +2133,8 @@
             "name": "Cave",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
+            "item_count": 1,
+            "hosted_item": "dw_southeast"
           }
         ],
         "map_locations": [
@@ -2142,14 +2148,15 @@
       {
         "name": "Dark Ice Rod Rock",
         "access_rules": [
-          "lift1"
+          "lift1,pearl"
         ],
         "sections": [
           {
             "name": "Cave",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
-            "item_count": 1
+            "item_count": 1,
+            "hosted_item": "dw_southeast"
           }
         ],
         "map_locations": [
@@ -2496,7 +2503,6 @@
           "mirror,lift1"
         ],
         "sections": [
-          //  Cave
           {
             "name": "Cave",
             "chest_unopened_img": "images/door_closed.png",
@@ -2509,11 +2515,6 @@
             "map": "lightworld",
             "x": 354,
             "y": 1560
-          },
-          {
-            "map": "darkworld",
-            "x": 334,
-            "y": 1557
           }
         ]
       }

@@ -554,6 +554,13 @@
     "codes": "dw_east"
   },
   {
+    "name": "Southeast Dark World",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_southeast"
+  },
+  {
     "name": "Dark Witch Hut",
     "capturable": false,
     "type": "toggle",
