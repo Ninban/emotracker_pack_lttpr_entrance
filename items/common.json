@@ -509,5 +509,160 @@
         "codes": "armor3,redmail"
       }
     ]
+  },
+  // Regions
+  {
+    "name": "Castle Second Floor",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "castle_top"
+  },
+  {
+    "name": "Desert Ledge",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "desert_ledge"
+  },
+  {
+    "name": "Mire Area",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "mire_area"
+  },
+  {
+    "name": "Northwest Dark World",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_west"
+  },
+  {
+    "name": "South Dark World",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_south"
+  },
+  {
+    "name": "East Dark World",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_east"
+  },
+  {
+    "name": "Southeast Dark World",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_southeast"
+  },
+  {
+    "name": "Dark Witch Hut",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dw_witch"
+  },
+  {
+    "name": "Hammer House",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "hammer_house"
+  },
+  {
+    "name": "Bumper Cave",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "bumper_cave"
+  },
+  {
+    "name": "Ice Palace Area",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "ip_area"
+  },
+  {
+    "name": "Death Mountain West Bottom",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dm_west_bottom"
+  },
+  {
+    "name": "Death Mountain West Top",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dm_west_top"
+  },
+  {
+    "name": "Death Mountain East Bottom",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dm_east_bottom"
+  },
+  {
+    "name": "Death Mountain East Top",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dm_east_top"
+  },
+  {
+    "name": "Death Mountain East Connector Top",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "dm_east_connect_top"
+  },
+  {
+    "name": "Dark Death Mountain West",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "ddm_west"
+  },
+  {
+    "name": "Dark Death Mountain East",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "ddm_east"
+  },
+  {
+    "name": "Dark Death Mountain Top",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "ddm_top"
+  },
+  {
+    "name": "Dark Death Mountain Floating Island",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "ddm_floating"
+  },
+  {
+    "name": "Dark Death Mountain TR Bridge",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "ddm_tr_bridge"
+  },
+  {
+    "name": "Dark Death Mountain TR Safety Door",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "ddm_tr_safety"
   }
 ]
