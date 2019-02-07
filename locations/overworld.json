@@ -482,8 +482,17 @@
                   {
                     "name": "Take This Trash",
                     "access_rules": [
-                      "mirror",
-                      // TODO - Plus access to dark south hyrule
+                      "aga1,hammer,moonpearl,mirror",
+                      "aga1,hookshot,lift1,moonpearl,mirror",
+                      "aga1,hookshot,flippers,moonpearl,mirror",
+                      "lift1,hammer,moonpearl,mirror",
+                      "lift2,moonpearl,mirror",
+                      "dw_west,mirror",
+                      "bumper_cave,mirror",
+                      "hammer_house,hammer,moonpearl,mirror",
+                      "dw_south,mirror",
+                      "dw_east,pearl,hammer,mirror",
+                      "dw_witch,pearl,hammer,mirror",
                       "{}"
                     ],
                     "capture_item": true,
@@ -623,7 +632,7 @@
               "dw_south,pearl,hammer,mirror",
               "dw_south,pearl,flippers,mirror",
               "dw_west,pearl,hammer,mirror",
-              "dw_west,pearl,flippers,mirror",
+              "dw_west,pearl,flippers,mirror"
             ],
             "children": [
               {
@@ -1571,7 +1580,7 @@
                 "name": "Cave",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1,
+                "item_count": 1
               }
             ],
             "map_locations": [
@@ -1668,7 +1677,7 @@
       "hammer_house,hammer,moonpearl",
       "dw_south",
       "dw_east,pearl,hammer",
-      "dw_witch,pearl,hammer",
+      "dw_witch,pearl,hammer"
     ],
     "children": [
       {
@@ -2525,258 +2534,71 @@
     "name": "Death Mountain",
     "group": "Death Mountain",
     "color": "#934f17",
-    "access_rules": [
-      "flute"
-    ],
     "children": [
-      //  Old Man
       {
-        "name": "Death Moutain Entrance",
-        "short_name": "DM Entry Back",
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 816,
-            "y": 378
-          }
-        ]
-      },
-      {
-        "name": "Old Man Residence",
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 900,
-            "y": 470
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Old Man Back Residence",
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 1075,
-            "y": 325
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Death Mountain Exit Front",
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 790,
-            "y": 275
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ]
-      },
-      //  Spectacle Rock
-      {
-        "name": "Spectacle Rock",
-        "sections": [
-          {
-            "name": "Up On top",
-            "capture_item": true,
-            "access_rules": [
-              "mirror",
-              "{}"
-            ],
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 1020,
-            "y": 170
-          }
-        ]
-      },
-      {
-        "name": "Spectacle Rock Left",
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 920,
-            "y": 280
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Spectacle Rock Right",
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 980,
-            "y": 290
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Spectacle Rock Top",
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 980,
-            "y": 205
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ]
-      },
-      //  Ether Tablet
-      {
-        "name": "Ether Tablet",
+        "name": "Death Mountain West Bottom",
         "access_rules": [
-          "mirror",
-          "hookshot,hammer"
-        ],
-        "sections": [
-          {
-            "name": "Tablet",
-            "capture_item": true,
-            "access_rules": [
-              "book,$canActivateTablets",
-              "{book}"
-            ],
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 844,
-            "y": 38
-          }
-        ]
-      },
-      {
-        "name": "Tower of Hera",
-        "map_locations": [
-          {
-            "map": "lightworld",
-            "x": 1125,
-            "y": 65
-          }
-        ],
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ]
-      },
-      //  Spike Cave
-      {
-        "name": "Spike Cave",
-        "color": "#35046b",
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "darkworld",
-            "x": 1151,
-            "y": 294
-          }
-        ]
-      },
-      {
-        "name": "Dark Mountain Fairy",
-        "color": "#35046b",
-        "sections": [
-          {
-            "name": "Cave",
-            "chest_unopened_img": "images/door_closed.png",
-            "chest_opened_img": "images/door_open.png",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "darkworld",
-            "x": 815,
-            "y": 376
-          }
-        ]
-      },
-      //  East Death Mountain
-      {
-        "name": "East Death Mountain",
-        "access_rules": [
-          "mirror,hammer",
-          "hookshot"
+          "flute",
+          "dm_west_bottom",
+          "dm_west_top",
+          "dm_east_bottom,hookshot",
+          "dm_east_top,hookshot",
+          "dm_east_top,hammer",
+          "dm_east_connect_top,hookshot",
+          "ddm_west,mirror",
+          "ddm_top,mirror",
+          "ddm_east,mirror,hookshot",
+          "ddm_floating,mirror",
+          "ddm_tr_bridge,mirror,hookshot",
+          "ddm_tr_safety,mirror,hookshot"
         ],
         "children": [
           {
-            "name": "Paradox Cave Top",
+            "name": "Death Moutain Entrance",
+            "short_name": "DM Entry Back",
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ],
             "map_locations": [
               {
                 "map": "lightworld",
-                "x": 1725,
-                "y": 125
+                "x": 816,
+                "y": 378
+              }
+            ]
+          },
+          {
+            "name": "Old Man Residence",
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 900,
+                "y": 470
+              }
+            ]
+          },
+          {
+            "name": "Old Man Back Residence",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1075,
+                "y": 325
               }
             ],
             "sections": [
@@ -2784,12 +2606,372 @@
                 "name": "Cave",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Death Mountain Exit Front",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 790,
+                "y": 275
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock",
+            "sections": [
+              {
+                "name": "Up On top",
+                "capture_item": true,
+                "access_rules": [
+                  "mirror",
+                  "{}"
+                ],
                 "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1020,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock Left",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 920,
+                "y": 280
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock Right",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 980,
+                "y": 290
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Spectacle Rock Top",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 980,
+                "y": 205
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Spike Cave",
+            "color": "#35046b",
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "ddm_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1151,
+                "y": 294
+              }
+            ]
+          },
+          {
+            "name": "Dark Mountain Fairy",
+            "color": "#35046b",
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "ddm_west"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 815,
+                "y": 376
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain West Top",
+        "access_rules": [
+          "flute,mirror",
+          "dm_west_bottom,mirror",
+          "dm_west_top",
+          "dm_east_bottom,hookshot,mirror",
+          "dm_east_top,hookshot,mirror",
+          "dm_east_top,hammer",
+          "dm_east_connect_top,hookshot,mirror",
+          "ddm_west,mirror",
+          "ddm_top,mirror",
+          "ddm_east,mirror,hookshot",
+          "ddm_floating,mirror",
+          "ddm_tr_bridge,mirror,hookshot",
+          "ddm_tr_safety,mirror,hookshot"
+        ],
+        "children": [
+          {
+            "name": "Ether Tablet",
+            "sections": [
+              {
+                "name": "Tablet",
+                "capture_item": true,
+                "access_rules": [
+                  "book,$canActivateTablets",
+                  "{book}"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 844,
+                "y": 38
+              }
+            ]
+          },
+          {
+            "name": "Tower of Hera",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1125,
+                "y": 65
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_west_top"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain East Bottom",
+        "access_rules": [
+          "flute,hookshot",
+          "flute,mirror,hammer",
+          "dm_west_bottom,hookshot",
+          "dm_west_bottom,mirror,hammer",
+          "dm_west_top,hookshot",
+          "dm_west_top,hammer",
+          "dm_east_bottom",
+          "dm_east_top",
+          "dm_east_connect_top",
+          "ddm_west,mirror,hookshot",
+          "ddm_west,mirror,hammer",
+          "ddm_top,mirror",
+          "ddm_east,mirror",
+          "ddm_floating,mirror",
+          "ddm_tr_bridge,mirror",
+          "ddm_tr_safety,mirror"
+        ],
+        "children": [
+          {
+            "name": "Spiral Cave Bottom",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1605,
+                "y": 260
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "EDM Fairy Cave",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1695,
+                "y": 290
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Paradox Cave Middle",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1735,
+                "y": 290
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Paradox Cave Bottom",
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1731,
+                "y": 434
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "EDM Connector Bottom",
+            "access_rules": [
+              "lift2",
+              "dm_west_bottom,mirror,hammer",
+              "dm_west_top,hammer",
+              "dm_east_top",
+              "dm_east_connect_top",
+              "ddm_west,mirror,hammer",
+              "ddm_top,mirror",
+              "ddm_east,mirror",
+              "ddm_floating,mirror",
+              "ddm_tr_safety,mirror"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1645,
+                "y": 275
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
+              }
+            ]
+          },
+          {
+            "name": "Spiral Cave Top",
+            "access_rules": [
+              "flute,mirror,hammer",
+              "dm_west_bottom,mirror,hammer",
+              "dm_west_top,hammer",
+              "dm_east_top",
+              "ddm_west,mirror,hammer",
+              "ddm_top,mirror",
+              "ddm_floating,mirror",
+              "ddm_tr_bridge,mirror"
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1600,
+                "y": 180
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "dm_east_bottom"
               }
             ]
           },
           {
             "name": "Mimic Cave",
+            "access_rules": [
+              "ddm_tr_bridge,mirror"
+            ],
             "map_locations": [
               {
                 "map": "lightworld",
@@ -2808,6 +2990,16 @@
           },
           {
             "name": "EDM Connector Top",
+            "access_rules": [
+              "flute,mirror,hammer",
+              "dm_west_bottom,mirror,hammer",
+              "dm_west_top,hammer",
+              "dm_east_top",
+              "ddm_west,mirror,hammer",
+              "ddm_top,mirror",
+              "ddm_floating,mirror",
+              "ddm_tr_safety,mirror"
+            ],
             "map_locations": [
               {
                 "map": "lightworld",
@@ -2820,340 +3012,49 @@
                 "name": "Cave",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
+                "item_count": 1,
+                "hosted_item": "dm_east_connect_top"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain East Top",
+        "access_rules": [
+          "flute,mirror,hammer",
+          "dm_west_bottom,mirror,hammer",
+          "dm_west_top,hammer",
+          "dm_east_bottom,hookshot,mirror,hammer",
+          "dm_east_top",
+          "dm_east_connect_top,hookshot,mirror,hammer",
+          "ddm_west,mirror,hammer",
+          "ddm_top,mirror",
+          "ddm_east,mirror,hookshot,hammer",
+          "ddm_floating,mirror",
+          "ddm_tr_bridge,mirror,hookshot,hammer",
+          "ddm_tr_safety,mirror,hookshot,hammer"
+        ],
+        "children": [
           {
-            "name": "EDM Connector Bottom",
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 1645,
-                "y": 275
-              }
-            ],
+            "name": "Paradox Cave Top",
             "sections": [
               {
                 "name": "Cave",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
-                "item_count": 1
+                "item_count": 1,
+                "hosted_item": "dm_east_top"
               }
-            ]
-          },
-          {
-            "name": "Paradox Cave Top",
+            ],
             "map_locations": [
               {
                 "map": "lightworld",
                 "x": 1725,
                 "y": 125
               }
-            ],
-            "sections": [
-              {
-                "name": "Cave",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
             ]
           },
-          //  Spiral Cave
-          {
-            "name": "Spiral Cave Top",
-            "sections": [
-              {
-                "name": "Cave",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 1600,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "name": "Spiral Cave Bottom",
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 1605,
-                "y": 260
-              }
-            ],
-            "sections": [
-              {
-                "name": "Cave",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ]
-          },
-          //  East Death Mountain Cave
-          {
-            "name": "EDM Fairy Cave",
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 1695,
-                "y": 290
-              }
-            ],
-            "sections": [
-              {
-                "name": "Cave",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "Paradox Cave Middle",
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 1735,
-                "y": 290
-              }
-            ],
-            "sections": [
-              {
-                "name": "Cave",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "Paradox Cave Bottom",
-            "sections": [
-              {
-                "name": "Cave",
-                "chest_unopened_img": "images/door_closed.png",
-                "chest_opened_img": "images/door_open.png",
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 1731,
-                "y": 434
-              }
-            ]
-          },
-          //  Dark Death Mountain
-          {
-            "name": "Dark Death Mountain",
-            "group": "Death Mountain",
-            "color": "#35046b",
-            "access_rules": [
-              "lift2"
-            ],
-            "children": [
-              {
-                "name": "TR Ledge Right",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1694,
-                    "y": 182
-                  }
-                ]
-              },
-              {
-                "name": "TR Ledge Left",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1598,
-                    "y": 182
-                  }
-                ]
-              },
-              {
-                "name": "Super-Bunny Cave Bottom",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1685,
-                    "y": 295
-                  }
-                ]
-              },
-              {
-                "name": "Super-Bunny Cave Top",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1725,
-                    "y": 128
-                  }
-                ]
-              },
-              {
-                "name": "Death Mountain Shop",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1725,
-                    "y": 295
-                  }
-                ]
-              },
-              {
-                "name": "Hookshot Cave Top",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1627,
-                    "y": 40
-                  }
-                ]
-              },
-              {
-                "name": "TR Safety Door",
-                "sections": [
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1648,
-                    "y": 229
-                  }
-                ]
-              },
-              {
-                "name": "Turtle Rock",
-                "sections": [
-                  {
-                    "name": "Dungeon",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1890,
-                    "y": 165
-                  }
-                ]
-              },
-              //  Hookshot Cave
-              {
-                "name": "Hookshot Cave",
-                "access_rules": [
-                  "pearl"
-                ],
-                "sections": [
-                  //  Front chest
-                  {
-                    "name": "Cave",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1670,
-                    "y": 126
-                  }
-                ]
-              },
-              {
-                "name": "Ganon's Tower",
-                "color": "#af0000",
-                "access_rules": [
-                  "mirror,hammer,lift2,crystal:7",
-                  "hookshot,hammer,lift2,crystal:7"
-                ],
-                "sections": [
-                  {
-                    "name": "Dungeon",
-                    "chest_unopened_img": "images/door_closed.png",
-                    "chest_opened_img": "images/door_open.png",
-                    "item_count": 1
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "darkworld",
-                    "x": 1125,
-                    "y": 70
-                  }
-                ]
-              }
-            ]
-          },
-          //  Floating Island
           {
             "name": "Floating Island",
             "color": "#934f17",
@@ -3162,7 +3063,8 @@
                 "name": "Island",
                 "capture_item": true,
                 "access_rules": [
-                  "{}"
+                  "{}",
+                  "ddm_floating,mirror"
                 ],
                 "item_count": 1
               }
@@ -3174,6 +3076,260 @@
                 "y": 40
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Death Mountain East",
+        "access_rules": [
+          "flute,hookshot,lift2",
+          "flute,mirror,hammer,lift2",
+          "dm_west_bottom,hookshot,lift2",
+          "dm_west_bottom,mirror,hammer,lift2",
+          "dm_west_top,hammer,lift2",
+          "dm_east_bottom,lift2",
+          "dm_east_top,lift2",
+          "dm_east_connect_top,lift2",
+          "ddm_west,mirror,hookshot,lift2",
+          "ddm_west,mirror,hammer,lift2",
+          "ddm_top",
+          "ddm_east",
+          "ddm_floating",
+          "ddm_tr_bridge,mirror,lift2",
+          "ddm_tr_safety,mirror,lift2"
+        ],
+        "children": [
+          {
+            "name": "Super-Bunny Cave Bottom",
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "ddm_east"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1685,
+                "y": 295
+              }
+            ]
+          },
+          {
+            "name": "Death Mountain Shop",
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "ddm_east"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1725,
+                "y": 295
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Death Mountain Top",
+        "access_rules": [
+          "flute,mirror,hammer,lift2",
+          "dm_west_bottom,mirror,hammer,lift2",
+          "dm_west_top,hammer,lift2",
+          "dm_east_bottom,hookshot,mirror,hammer,lift2",
+          "dm_east_top,lift2",
+          "dm_east_connect_top,hookshot,mirror,hammer,lift2",
+          "ddm_west,mirror,hammer,lift2",
+          "ddm_top",
+          "ddm_east,mirror,hookshot,hammer,lift2",
+          "ddm_floating",
+          "ddm_tr_bridge,mirror,hookshot,hammer,lift2",
+          "ddm_tr_safety,mirror,hookshot,hammer,lift2"
+        ],
+        "children": [
+          {
+            "name": "Super-Bunny Cave Top",
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "ddm_top"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1725,
+                "y": 128
+              }
+            ]
+          },
+          {
+            "name": "Hookshot Cave",
+            "access_rules": [
+              "pearl,lift1"
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "ddm_top"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1670,
+                "y": 126
+              }
+            ]
+          },
+          {
+            "name": "Turtle Rock",
+            "access_rules": [
+              "$canUseMedallions,pearl,hammer,lift2,tr_medallion",
+              "$canUseMedallions,pearl,hammer,lift2,bombos,ether,quake"
+            ],
+            "sections": [
+              {
+                "name": "Dungeon",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "ddm_top"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1890,
+                "y": 165
+              }
+            ]
+          },
+          {
+            "name": "Ganon's Tower",
+            "color": "#af0000",
+            "access_rules": [
+              "crystal:7"
+            ],
+            "sections": [
+              {
+                "name": "Dungeon",
+                "chest_unopened_img": "images/door_closed.png",
+                "chest_opened_img": "images/door_open.png",
+                "item_count": 1,
+                "hosted_item": "ddm_top"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1125,
+                "y": 70
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TR Ledge Left",
+        "access_rules": [
+          "ddm_tr_bridge"
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "ddm_tr_bridge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1598,
+            "y": 182
+          }
+        ]
+      },
+      {
+        "name": "TR Ledge Right",
+        "access_rules": [
+          "ddm_tr_bridge"
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "ddm_tr_bridge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1694,
+            "y": 182
+          }
+        ]
+      },
+      {
+        "name": "TR Safety Door",
+        "access_rules": [
+          "Nothing"
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "ddm_tr_safety"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1648,
+            "y": 229
+          }
+        ]
+      },
+      {
+        "name": "Hookshot Cave Top",
+        "access_rules": [
+          "Nothing"
+        ],
+        "sections": [
+          {
+            "name": "Cave",
+            "chest_unopened_img": "images/door_closed.png",
+            "chest_opened_img": "images/door_open.png",
+            "item_count": 1,
+            "hosted_item": "ddm_floating"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "darkworld",
+            "x": 1627,
+            "y": 40
           }
         ]
       }
