@@ -27,7 +27,7 @@
         "name": "Back",
         "clear_as_group": true,
         "access_rules": [
-          "hc_smallkey:1"
+          "[hc_smallkey:1]"
         ],
         "item_count": 3
       },
@@ -78,11 +78,22 @@
     "sections": [
       {
         "name": "Dungeon",
-        "access_rules": [
-          "[ep_bigkey],[lamp]"
-        ],
         "clear_as_group": false,
-        "item_count": 5
+        "item_count": 3
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "ep_bigkey"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "[lamp]"
+        ],
+        "item_count": 1
       },
       {
         "name": "Armos",
@@ -97,7 +108,7 @@
       {
         "map": "lightworld",
         "x": 1925,
-        "y": 830
+        "y": 780
       }
     ]
   },
