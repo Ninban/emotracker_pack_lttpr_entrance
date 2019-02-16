@@ -78,6 +78,9 @@
           {
             "name": "Death Mountain Entry Cave",
             "short_name": "DM Entry",
+            "access_rules": [
+              "lift1"
+            ],
             "map_locations": [
               {
                 "map": "lightworld",
@@ -1619,7 +1622,7 @@
         "name": "Bumper Cave Entry",
         "access_rules": [
           "bumper_cave",
-          "pearl"
+          "pearl,lift1"
         ],
         "sections": [
           {
