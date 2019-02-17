@@ -79,26 +79,15 @@
       {
         "name": "Dungeon",
         "clear_as_group": false,
-        "item_count": 3
-      },
-      {
-        "name": "Big Chest",
-        "access_rules": [
-          "ep_bigkey"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "Big Key Chest",
         "access_rules": [
           "[lamp]"
         ],
-        "item_count": 1
+        "item_count": 5
       },
       {
         "name": "Armos",
         "access_rules": [
-          "ep_bigkey,bow,[lamp]"
+          "bow,[lamp]"
         ],
         "item_count": 1,
         "hosted_item": "easternpalace"
@@ -422,24 +411,12 @@
         "color": "#af0000",
         "sections": [
           {
-            "name": "Lower",
+            "name": "Dungeon",
             "clear_as_group": false,
-            "item_count": 2
-          },
-          {
-            "name": "Fire Locked",
             "access_rules": [
-              "firesource,toh_smallkey"
+              "[firesource]"
             ],
-            "item_count": 1
-          },
-          {
-            "name": "Upper",
-            "access_rules": [
-              "toh_bigkey"
-            ],
-            "clear_as_group": false,
-            "item_count": 2
+            "item_count": 5
           },
           {
             "name": "Moldorm",

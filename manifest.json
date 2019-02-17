@@ -1,12 +1,15 @@
 ﻿{
   "name": "ALTTPR Entrance Randomizer",
   "game_name": "A Link to the Past Randomizer",
-  "package_version": "0.1",
-  "package_uid": "alttpr_entrance",
+  "package_version": "1.0",
+  "package_uid": "alttpr_entrance_ninban",
   "author": "Ninban & Fylion",
   "variants": {
+    "standard": {
+      "display_name": "Crossworld Map Tracker"
+    },
     "keysanity": {
-      "display_name": "Entrance + Keysanity Map Tracker"
+      "display_name": "Crossworld + Keysanity Map Tracker"
     }
   }
 }
