@@ -2258,7 +2258,7 @@
       {
         "name": "Upgrade Fairy",
         "access_rules": [
-          "flippers",
+          "[flippers]",
           "ip_area, mirror"
         ],
         "map_locations": [
