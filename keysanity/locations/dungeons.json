@@ -87,7 +87,7 @@
       {
         "name": "Armos",
         "access_rules": [
-          "bow,[lamp]"
+          "bow,[lamp],ep_bigkey"
         ],
         "item_count": 1,
         "hosted_item": "easternpalace"
@@ -414,15 +414,15 @@
             "name": "Dungeon",
             "clear_as_group": false,
             "access_rules": [
-              "[firesource]"
+              "[firesource],[toh_smallkey:1]"
             ],
             "item_count": 5
           },
           {
             "name": "Moldorm",
             "access_rules": [
-              "@Tower of Hera/Upper,sword",
-              "@Tower of Hera/Upper,hammer"
+              "sword,toh_bigkey",
+              "hammer,toh_bigkey"
             ],
             "hosted_item": "towerofhera",
             "item_count": 1
