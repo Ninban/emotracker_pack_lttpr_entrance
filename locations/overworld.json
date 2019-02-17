@@ -717,21 +717,33 @@
             "name": "Dam",
             "sections": [
               {
-                "name": "Inside",
+                "name": "Cave",
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
                 "item_count": 1
               },
-              {
-                "name": "Outside",
-                "item_count": 1
-              }
             ],
             "map_locations": [
               {
                 "map": "lightworld",
                 "x": 942,
                 "y": 1880
+              }
+            ]
+          },
+          {
+            "name": "Dam Exterior",
+            "sections": [
+              {
+                "name": "Item",
+                "item_count": 1
+              },
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 900,
+                "y": 1860
               }
             ]
           },
