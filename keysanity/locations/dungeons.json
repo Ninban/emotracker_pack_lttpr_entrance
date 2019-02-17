@@ -485,7 +485,8 @@
             "access_rules": [
               "bow,firesource,[hookshot],gt_bigkey,gt_smallkey:1"
             ],
-            "item_count": 4
+            "item_count": 4,
+            "hosted_item": "aga2"
           }
         ],
         "map_locations": [

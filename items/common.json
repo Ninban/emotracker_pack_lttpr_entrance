@@ -664,5 +664,12 @@
     "type": "toggle",
     "img": "images/0062.png",
     "codes": "ddm_tr_safety"
+  },
+  {
+    "name": "Agahnim 2",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0055.png",
+    "codes": "aga2,gt"
   }
 ]

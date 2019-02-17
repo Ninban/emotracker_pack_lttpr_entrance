@@ -2077,14 +2077,16 @@
           }
         ]
       },
+    ]
+  },
+  {
+    "name": "Ganon Hole",
+    "color": "#35046b",
+    "access_rules": [
+      "gt"
+    ],
+    "sections": [
       {
-        "name": "Ganon Hole",
-        "color": "#35046b",
-        "access_rules": [
-          "crystal:7"
-        ],
-        "sections": [
-          {
             "name": "Dropdown",
             "chest_unopened_img": "images/door_closed.png",
             "chest_opened_img": "images/door_open.png",
@@ -2096,9 +2098,7 @@
           {
             "map": "darkworld",
             "x": 1000,
-            "y": 820
-          }
-        ]
+        "y": 820
       }
     ]
   },

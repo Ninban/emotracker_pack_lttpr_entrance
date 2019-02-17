@@ -438,6 +438,24 @@
       {
         "name": "Ganon's Tower",
         "color": "#af0000",
+        "sections": [
+          {
+            "name": "Dungeon",
+            "clear_as_group": false,
+            "access_rules": [
+              "[firerod],[hookshot],[boots],[somaria],[bow],[firesource]"
+            ],
+            "item_count": 20
+          },
+          {
+            "name": "Agahnim 2",
+            "clear_as_group": false,
+            "access_rules": [
+              "bow,firesource,[hookshot]"
+            ],
+            "hosted_item": "aga2"
+          }
+        ],
         "map_locations": [
           {
             "map": "darkworld",
