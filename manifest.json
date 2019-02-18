@@ -1,7 +1,7 @@
 ﻿{
-  "name": "ALTTPR Entrance Randomizer",
+  "name": "ALTTPR Entrance Randomizer Map Tracker",
   "game_name": "A Link to the Past Randomizer",
-  "package_version": "1.0",
+  "package_version": "1.0.0.0",
   "package_uid": "alttpr_entrance_ninban",
   "author": "Ninban & Fylion",
   "variants": {
