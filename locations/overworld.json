@@ -1100,7 +1100,14 @@
               "pearl,aga1,hammer,hookshot",
               "pearl,aga1,lift1,hookshot",
               "pearl,aga1,flippers,hookshot",
-              "pearl,lift1,hammer"
+              "pearl,lift1,hammer",
+              "dw_west,pearl",
+              "dw_east,flippers,hookshot",
+              "dw_east,lift1,hookshot",
+              "dw_east,hammer,hookshot",
+              "dw_south,flippers,hookshot",
+              "dw_south,hammer,hookshot",
+              "dw_witch,pearl,hookshot"
             ],
             "children": [
               //  Graveyard Ledge
