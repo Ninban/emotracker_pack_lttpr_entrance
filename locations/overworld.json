@@ -1337,7 +1337,10 @@
       "lift2,moonpearl",
       "dw_west",
       "bumper_cave",
-      "hammer_house,hammer,moonpearl"
+      "hammer_house,hammer,moonpearl",
+      "dw_east,pearl,lift1,hookshot",
+      "dw_east,pearl,flippers,hookshot",
+      "dw_east,pearl,hammer,hookshot"
     ],
     "sections": [
       {
@@ -1700,6 +1703,8 @@
       "hammer_house,hammer,moonpearl",
       "dw_south",
       "dw_east,pearl,hammer",
+      "dw_east,pearl,lift1,hookshot",
+      "dw_east,pearl,flippers,hookshot",
       "dw_witch,pearl,hammer"
     ],
     "children": [
