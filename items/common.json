@@ -526,6 +526,13 @@
     "codes": "desert_ledge"
   },
   {
+    "name": "Desert Back",
+    "capturable": false,
+    "type": "toggle",
+    "img": "images/0062.png",
+    "codes": "desert_back"
+  },
+  {
     "name": "Mire Area",
     "capturable": false,
     "type": "toggle",

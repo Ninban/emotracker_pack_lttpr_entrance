@@ -1149,6 +1149,7 @@
             "access_rules": [
               "lift2,ocarina,mirror",
               "desert_ledge",
+              "desert_back,lift1",
               "mire_area,mirror"
             ],
             "children": [
@@ -1190,7 +1191,7 @@
                     "chest_unopened_img": "images/door_closed.png",
                     "chest_opened_img": "images/door_open.png",
                     "item_count": 1,
-                    "hosted_item": "desert_ledge"
+                    "hosted_item": "desert_back"
                   }
                 ]
               }
@@ -1206,6 +1207,7 @@
                 "access_rules": [
                   "lift2,ocarina,mirror",
                   "desert_ledge",
+                  "desert_back,lift1",
                   "{}"
                 ],
                 "capture_item": true,
