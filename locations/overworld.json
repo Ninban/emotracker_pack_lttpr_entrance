@@ -1342,7 +1342,8 @@
       "hammer_house,hammer,moonpearl",
       "dw_east,pearl,lift1,hookshot",
       "dw_east,pearl,flippers,hookshot",
-      "dw_east,pearl,hammer,hookshot"
+      "dw_east,pearl,hammer,hookshot",
+      "dw_witch,pearl,hookshot"
     ],
     "sections": [
       {
@@ -1710,7 +1711,8 @@
       "dw_east,pearl,hammer",
       "dw_east,pearl,lift1,hookshot",
       "dw_east,pearl,flippers,hookshot",
-      "dw_witch,pearl,hammer"
+      "dw_witch,pearl,hammer",
+      "dw_witch,pearl,hookshot"
     ],
     "children": [
       {
