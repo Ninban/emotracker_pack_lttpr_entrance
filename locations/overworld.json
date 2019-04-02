@@ -721,7 +721,7 @@
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
                 "item_count": 1
-              },
+              }
             ],
             "map_locations": [
               {
@@ -737,7 +737,7 @@
               {
                 "name": "Item",
                 "item_count": 1
-              },
+              }
             ],
             "map_locations": [
               {
@@ -2089,7 +2089,7 @@
             "y": 976
           }
         ]
-      },
+      }
     ]
   },
   {
@@ -2408,7 +2408,7 @@
       {
         "name": "Ice Palace",
         "access_rules": [
-          "lift2,flippers",
+          "lift2,[flippers]",
           "ip_area"
         ],
         "sections": [
