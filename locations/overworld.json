@@ -1379,6 +1379,9 @@
         "children": [
           {
             "name": "Thieves Town",
+            "access_rules": [
+              "pearl"
+            ],
             "sections": [
               {
                 "name": "Dungeon",
@@ -1418,7 +1421,7 @@
           {
             "name": "Hammer House",
             "access_rules": [
-              "hammer"
+              "hammer,pearl"
             ],
             "sections": [
               {
@@ -1712,6 +1715,9 @@
     "children": [
       {
         "name": "Haunted Grove",
+        "access_rules": [
+          "pearl"
+        ],
         "sections": [
           {
             "name": "Stumpy",
