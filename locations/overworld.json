@@ -721,7 +721,7 @@
                 "chest_unopened_img": "images/door_closed.png",
                 "chest_opened_img": "images/door_open.png",
                 "item_count": 1
-              },
+              }
             ],
             "map_locations": [
               {
@@ -737,7 +737,7 @@
               {
                 "name": "Item",
                 "item_count": 1
-              },
+              }
             ],
             "map_locations": [
               {
@@ -1100,7 +1100,14 @@
               "pearl,aga1,hammer,hookshot",
               "pearl,aga1,lift1,hookshot",
               "pearl,aga1,flippers,hookshot",
-              "pearl,lift1,hammer"
+              "pearl,lift1,hammer",
+              "dw_west,pearl",
+              "dw_east,flippers,hookshot",
+              "dw_east,lift1,hookshot",
+              "dw_east,hammer,hookshot",
+              "dw_south,flippers,hookshot",
+              "dw_south,hammer,hookshot",
+              "dw_witch,pearl,hookshot"
             ],
             "children": [
               //  Graveyard Ledge
@@ -1142,6 +1149,7 @@
             "access_rules": [
               "lift2,ocarina,mirror",
               "desert_ledge",
+              "desert_back,lift1",
               "mire_area,mirror"
             ],
             "children": [
@@ -1183,7 +1191,7 @@
                     "chest_unopened_img": "images/door_closed.png",
                     "chest_opened_img": "images/door_open.png",
                     "item_count": 1,
-                    "hosted_item": "desert_ledge"
+                    "hosted_item": "desert_back"
                   }
                 ]
               }
@@ -1199,6 +1207,7 @@
                 "access_rules": [
                   "lift2,ocarina,mirror",
                   "desert_ledge",
+                  "desert_back,lift1",
                   "{}"
                 ],
                 "capture_item": true,
@@ -1330,7 +1339,10 @@
       "lift2,moonpearl",
       "dw_west",
       "bumper_cave",
-      "hammer_house,hammer,moonpearl"
+      "hammer_house,hammer,moonpearl",
+      "dw_east,pearl,lift1,hookshot",
+      "dw_east,pearl,flippers,hookshot",
+      "dw_east,pearl,hammer,hookshot"
     ],
     "sections": [
       {
@@ -1367,6 +1379,9 @@
         "children": [
           {
             "name": "Thieves Town",
+            "access_rules": [
+              "pearl"
+            ],
             "sections": [
               {
                 "name": "Dungeon",
@@ -1406,7 +1421,7 @@
           {
             "name": "Hammer House",
             "access_rules": [
-              "hammer"
+              "hammer,pearl"
             ],
             "sections": [
               {
@@ -1693,11 +1708,16 @@
       "hammer_house,hammer,moonpearl",
       "dw_south",
       "dw_east,pearl,hammer",
+      "dw_east,pearl,lift1,hookshot",
+      "dw_east,pearl,flippers,hookshot",
       "dw_witch,pearl,hammer"
     ],
     "children": [
       {
         "name": "Haunted Grove",
+        "access_rules": [
+          "pearl"
+        ],
         "sections": [
           {
             "name": "Stumpy",
@@ -2089,7 +2109,7 @@
             "y": 976
           }
         ]
-      },
+      }
     ]
   },
   {
@@ -2408,7 +2428,7 @@
       {
         "name": "Ice Palace",
         "access_rules": [
-          "lift2,flippers",
+          "lift2,[flippers]",
           "ip_area"
         ],
         "sections": [

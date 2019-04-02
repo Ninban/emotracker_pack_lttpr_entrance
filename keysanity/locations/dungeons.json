@@ -211,7 +211,7 @@
               {
                 "name": "Arrgus",
                 "access_rules": [
-                  "hookshot,hammer"
+                  "sp_smallkey:1,hookshot,hammer"
                 ],
                 "hosted_item": "swamppalace",
                 "item_count": 1
